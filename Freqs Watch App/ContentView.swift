@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    let hapticManager = HapticFrequencyManager()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("ADHD / Anxiety Vibration")
+                .font(.headline)
+                .padding()
+            
+            Button("Calm Mode (3 Hz)") {
+                hapticManager.startHaptic(frequency: 3, duration: 60) // Vibrates at 3 Hz for 1 minute
+            }
+            .padding()
+            
+            Button("Focus Mode (10 Hz)") {
+                hapticManager.startHaptic(frequency: 10, duration: 60) // Vibrates at 10 Hz for 1 minute
+            }
+            .padding()
+
+            Button("Stop Vibration") {
+                hapticManager.stopHaptic()
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
