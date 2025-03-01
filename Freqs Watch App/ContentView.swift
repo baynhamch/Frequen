@@ -1,35 +1,60 @@
 //
-//  ContentView.swift
-//  Freqs Watch App
+//import SwiftUI
 //
-//  Created by Nicholas Conant-Hiley on 2/28/25.
 //
-
+//struct ContentView: View {
+//    @StateObject private var healthKitManager = HealthKitManager()
+//
+//    var body: some View {
+//        VStack {
+//            VStack {
+//                Text("💓 Current HR: \(Int(healthKitManager.heartRate)) BPM")
+//                    .font(.subheadline)
+//                Text("🎵 Watchbeat: \(Int(healthKitManager.currentWatchbeat)) BPM") // ✅ Now should work
+//            }
+//
+//            Button("Start Monitoring") {
+//                healthKitManager.requestAuthorization()
+//                healthKitManager.startHeartRateMonitoring()
+//
+//                print("🚀 Monitoring Started")
+//            }
+//            .padding()
+//
+//            Button("Stop") {
+//                healthKitManager.stopMonitoring()
+//            }
+//            .padding()
+//            .foregroundColor(.red)
+//        }
+//    }
+//
+//}
 import SwiftUI
 
 struct ContentView: View {
-    let hapticManager = HapticFrequencyManager()
+    @StateObject private var healthKitManager = HealthKitManager()
     
     var body: some View {
         VStack {
-            Text("ADHD / Anxiety Vibration")
-                .font(.headline)
-                .padding()
+            Text("💓 Heart Rate: \(Int(healthKitManager.heartRate)) BPM")
+//            Text("🎵 Watch Beat: \(Int(healthKitManager.currentWatchbeat)) BPM")
+//                .onChange(of: healthKitManager.currentWatchbeat) { newValue in
+//                    print("🔽 Decreasing Haptic BPM: \(newValue)")
+//                }
             
-            Button("Calm Mode (3 Hz)") {
-                hapticManager.startHaptic(frequency: 3, duration: 60) // Vibrates at 3 Hz for 1 minute
+            Button("Start Monitoring") {
+                healthKitManager.requestAuthorization()
+                healthKitManager.startHeartRateMonitoring()
+                print("🚀 Monitoring Started")
             }
             .padding()
             
-            Button("Focus Mode (10 Hz)") {
-                hapticManager.startHaptic(frequency: 10, duration: 60) // Vibrates at 10 Hz for 1 minute
+            Button("Stop") {
+                healthKitManager.stopMonitoring()
             }
             .padding()
-
-            Button("Stop Vibration") {
-                hapticManager.stopHaptic()
-            }
-            .padding()
+            .foregroundColor(.red)
         }
     }
 }

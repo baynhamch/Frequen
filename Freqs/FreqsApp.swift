@@ -1,11 +1,24 @@
+////
+////  FreqsApp.swift
+////  Freqs
+////
+////  Created by Nicholas Conant-Hiley on 2/28/25.
+////
 //
-//  FreqsApp.swift
-//  Freqs
+//import SwiftUI
+//import SwiftData
 //
-//  Created by Nicholas Conant-Hiley on 2/28/25.
-//
-
+//@main
+//struct FreqsApp: App {
+//    var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//        }
+////        .modelContainer(for: [HapticSession.self])
+//    }
+//}
 import SwiftUI
+import SwiftData
 
 @main
 struct FreqsApp: App {
@@ -13,5 +26,6 @@ struct FreqsApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [HapticSession.self])
     }
 }
