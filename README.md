@@ -36,17 +36,17 @@ Conclusion
 Both auditory frequency stimulation and wearable vibration therapy represent innovative, non-drug methods for influencing our mental state. Scientific research to date suggests some real benefits: binaural and isochronic tones can reduce anxiety and possibly enhance certain cognitive tasks ￼ ￼, while haptic devices can physiologically calm users and serve as attention aids in daily life ￼ ￼. However, the field is young, and findings are not yet uniform. Many studies are preliminary or report modest effects, and a few well-controlled trials show null results, highlighting the importance of placebo effects and individual differences ￼ ￼. In practice, techniques like listening to focus beats or using a vibrating reminder are generally low risk and easy to try alongside conventional treatments. Individuals have reported positive experiences – feeling more focused during work or less anxious before sleep – but from a clinical standpoint, these tools should be seen as complementary aids rather than standalone cures. The consensus in the scientific community is that more rigorous research is needed to fully validate and optimize these interventions ￼. Future studies with larger samples, standardized protocols, and long-term follow-ups will help determine how effective sound frequencies and wearable vibrations truly are for managing ADHD symptoms, improving concentration, and relieving anxiety. For now, they remain promising techniques with a growing body of supportive evidence, offering an intriguing bridge between technology, neuroscience, and mental well-being.
 
 Sources:
-	•	Huang & Charyton (2008) – Review of brainwave entrainment research on cognition, mood, and pain ￼ ￼
-	•	Garcia-Argibay et al. (2019) – Study on binaural beats and memory recall ￼
-	•	Kennel et al. (2010) – Pilot study of binaural beats in children with ADHD ￼ ￼
-	•	Padmanabhan et al. (2005) – Binaural delta beats reducing pre-operative anxiety ￼ ￼
-	•	Weiland et al. (2011) – Binaural beats (10 Hz) lowering anxiety in patients ￼
-	•	Le Scouarnec et al. (2001) – One-month trial of daily binaural beats for anxiety ￼ ￼
-	•	Lane et al. (1998) – Binaural beats at beta frequencies improving vigilance and mood ￼ ￼
-	•	Azevedo et al. (2017) – RCT on doppel wearable vibrations reducing public-speaking anxiety ￼
-	•	Jamari et al. (2024) – Weighted vest with vibrotactile stimulation lowering physiological anxiety in students ￼ ￼
-	•	Ayearst et al. (2023) – Open-label pilot of Revibe wearable prompting device in 38 children with ADHD (improved attention/executive function) ￼
-	•	Ezogu et al. (2023) – Double-blind RCT of doppel in 49 adults with ADHD (no significant effect on focus or anxiety vs placebo) ￼ ￼
-	•	Harvard Health Publishing (Shmerling, 2021) – Summary of Apollo Neuro device claims and small studies on stress reduction (non–peer-reviewed) ￼ ￼
-	•	Healthline (2024) – Overview of isochronic tones and research status ￼ ￼
-	•	Scoping Review (2023) – Wearables for stress management, noting use of devices like smartwatches and wristbands for stress reduction ￼ ￼.
+- Huang & Charyton (2008) – Review of brainwave entrainment research on cognition, mood, and pain ￼https://www.healthline.com/health/isochronic-tones#:~:text=Brain%20wave%20entrainment ￼
+- Garcia-Argibay et al. (2019) – Study on binaural beats and memory recall ￼
+- Kennel et al. (2010) – Pilot study of binaural beats in children with ADHD ￼ ￼
+- Padmanabhan et al. (2005) – Binaural delta beats reducing pre-operative anxiety ￼ ￼
+- Weiland et al. (2011) – Binaural beats (10 Hz) lowering anxiety in patients ￼
+- Le Scouarnec et al. (2001) – One-month trial of daily binaural beats for anxiety ￼ ￼
+- Lane et al. (1998) – Binaural beats at beta frequencies improving vigilance and mood ￼ ￼
+- Azevedo et al. (2017) – RCT on doppel wearable vibrations reducing public-speaking anxiety ￼
+- Jamari et al. (2024) – Weighted vest with vibrotactile stimulation lowering physiological anxiety in students ￼ ￼
+- Ayearst et al. (2023) – Open-label pilot of Revibe wearable prompting device in 38 children with ADHD (improved attention/executive function) ￼
+- Ezogu et al. (2023) – Double-blind RCT of doppel in 49 adults with ADHD (no significant effect on focus or anxiety vs placebo) ￼ ￼
+- Harvard Health Publishing (Shmerling, 2021) – Summary of Apollo Neuro device claims and small studies on stress reduction (non–peer-reviewed) ￼ ￼
+- Healthline (2024) – Overview of isochronic tones and research status ￼ ￼
+- Scoping Review (2023) – Wearables for stress management, noting use of devices like smartwatches and wristbands for stress reduction ￼ ￼.
