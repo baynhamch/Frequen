@@ -1,31 +1,4 @@
-//
-//import WatchKit
-//
-//class HapticFrequencyManager {
-//    private var timer: Timer?
-//
-//    func startHaptic(bpm: Double) {
-//        guard bpm > 0 else { return }  // Prevent division by zero
-//        let interval = 60.0 / bpm  // Convert BPM to time interval
-//
-//        stopHaptic() // Stop any existing haptic loop
-//
-//        DispatchQueue.main.async {
-//            self.timer = Timer.scheduledTimer(withTimeInterval: interval, repeats: true) { _ in
-//                WKInterfaceDevice.current().play(.directionDown) // Play haptic tap
-//            }
-//        }
-//    }
-//
-//    func updateHaptic(bpm: Double) {
-//        startHaptic(bpm: bpm) // Restart with new BPM
-//    }
-//
-//    func stopHaptic() {
-//        timer?.invalidate()
-//        timer = nil
-//    }
-//}
+
 import WatchKit
 
 class HapticFrequencyManager {
